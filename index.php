@@ -37,8 +37,16 @@ function toConsole(data)
 }
 
 function bondJSON(data){
+	//here is how I see data returned via the console
 	console.log(data);
-//JSON processing data goes here
+
+	// this loads data on page but bunched up
+	//$("#output").text(JSON.stringify(data));
+
+	let myData = JSON.stringify(data,null,4);
+
+	myData = "<pre>" + myData + "</pre>";
+	$("#output").html(myData);
 }
 
 </script>
