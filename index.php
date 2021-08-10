@@ -88,7 +88,7 @@ function bondTemplate(film){
 	return `
 	
 			<div class="film">
-			<b>Film: </b>${film.Film}<br />
+			<b>Show: </b>${film.Show}<br />
 			<b>Title: </b>${film.Title}<br />
 			<b>Year: </b>${film.Year}<br />
 			<b>Director: </b>${film.Director}<br />
@@ -111,7 +111,7 @@ function bondTemplate(film){
 </head>
 	<body>
 	<h1>Bond Web Service</h1>
-		<a href="year" class="category">Bond Films By Year</a><br />
+		<a href="year" class="category">NFL Active Player Contracts</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
 		<div id="films">
