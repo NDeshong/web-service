@@ -88,15 +88,15 @@ function bondTemplate(film){
 	return `
 	
 			<div class="film">
-			<b>Show: </b>${film.Show}<br />
-			<b>Title: </b>${film.Title}<br />
-			<b>Year: </b>${film.Year}<br />
-			<b>Director: </b>${film.Director}<br />
-			<b>Producers: </b>${film.Producers}<br />
-			<b>Writers: </b>${film.Writers}<br />
-			<b>Composer: </b>${film.Composer}<br />
-			<b>Bond: </b>${film.Bond}<br />
-			<b>Budget: </b>${film.Budget}<br />
+			<b>Name: </b>${film.Name}<br />
+			<b>Sport: </b>${film.Sport}<br />
+			<b>Position: </b>${film.Position:}<br />
+			<b>Team: </b>${film.Team:}<br />
+			<b>College: </b>${film.College}<br />
+			<b>YearlySalary: </b>${film.YearlySalary}<br />
+			<b>YearsUnderContract: </b>${film.YearsUnderContract}<br />
+			<b>TotalContractAmount: </b>${film.TotalContractAmount}<br />
+			<b>Age: </b>${film.Age}<br />
 			<b>BoxOffice: </b>${film.BoxOffice}<br />
 			<div class = "pic"><img src ="thumbnails/${film.Image}" /></div>
 		</div>
